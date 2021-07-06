@@ -28,10 +28,11 @@
                     <x-jet-nav-link href="{{ route('about') }}" :active="request()->routeIs('about')">
                         {{ __('Contact') }}
                     </x-jet-nav-link>
-                    @endif
+                        @else
                         <x-jet-nav-link href="{{ route('login') }}" :active="request()->routeIs('login')">
                             {{ __('Se connecter') }}
                         </x-jet-nav-link>
+                        @endif
                 </div>
             </div>
 

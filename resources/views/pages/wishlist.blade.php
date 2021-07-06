@@ -8,24 +8,7 @@
     <section class="py-5 text-center container">
     </section>
 
-    <style> /**
-        CSS WISHLIST
-        **/
-
-
-        .bg-blue-500 {
-            border-radius:12px;
-            background-color: #648ad4;
-        }
-
-        .relative {
-            text-align: center;
-        }
-
-        </style>
-
-
-    <body style="">
+    <body>
 
         <header class="section-header">
         <section class="header-main border-bottom">
@@ -114,21 +97,12 @@
             <td>
                 <div class="atw-Disposition-value"><div class="atw-Disposition-description"><span>Je ne l'ai pas choisi</span>
             </td>
-
             <td class="text-right">
                 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-1 rounded-full"><span>Mettre à jour le statut</span></button>
             </td>
         </tr>
-
-
-
-
-
-
-
-
-
-
+    </div>
+    </section>
         </body>
 
 

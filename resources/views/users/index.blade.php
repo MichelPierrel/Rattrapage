@@ -9,7 +9,7 @@
 
             <div>
                 <div class="mx-auto pull-right">
-                    <div class="">
+
                         <form action="{{ route('users.index') }}" method="GET" role="search">
                             <div class="input-group">
                                 <button class="btn btn-info" type="submit" title="Rechercher un utilisateur">
@@ -24,7 +24,7 @@
                                     placeholder="Rechercher un utilisateur" id="nomRecherche">
                             </div>
                         </form>
-                    </div>
+
                 </div>
             </div>
 
