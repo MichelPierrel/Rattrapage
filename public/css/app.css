@@ -127,7 +127,24 @@ pre {
 /**
 Add the correct font size in all browsers.
 */
+.footer
+{
+    background:#ccc;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:50px;
+    height:50px;
+}
 
+.header
+ {
+    padding: 60px;
+    text-align: center;
+    color: white;
+    background: cornflowerblue;
+    font-size: 30px;
+ }
 small {
   font-size: 80%;
 }
