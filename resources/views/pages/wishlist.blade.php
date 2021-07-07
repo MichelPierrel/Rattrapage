@@ -5,21 +5,11 @@
 @section('title', 'Ma WishList | '. config('app.name'))
 
 @section('content')
-    <section class="py-5 text-center container">
-    </section>
 
 
-
-        <header class="section-header">
-        <section class="header-main border-bottom">
-            <div class="container">
-
-
-                </div> <!-- widgets-wrap.// -->
-
-        </section> <!-- header-main .// -->
-        </header> <!-- section-header.// -->
-
+    <div class="header">
+    <h2>Liste des souhaits</h2>
+</div>
 
         <!-- ========================= SECTION PAGETOP ========================= -->
         <!-- Fill entire parent -->

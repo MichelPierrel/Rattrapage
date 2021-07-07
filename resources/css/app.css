@@ -1,21 +1,3 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-
-.header
- {
-    padding: 60px;
-    text-align: center;
-    color: white;
-    background: cornflowerblue;
-    font-size: 30px;
- }
-.footer
-{
-    background:#ccc;
-    position:absolute;
-    bottom:0;
-    width:100%;
-    padding-top:50px;
-    height:50px;
-}

@@ -6,7 +6,7 @@
                 <!-- Titre -->
                 <div class="flex-shrink-0 flex items-center">
                     <a>
-                        <img src="{{asset('icon-96x96.png')}}"
+                        <img src="{{asset('icon-72x72.png')}}"
                     </a>
                 </div>
 

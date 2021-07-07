@@ -18,53 +18,53 @@
         <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
           <dt class="text-sm font-medium text-gray-500">
             Duree du stage (en semaines)
-          </dt>
+
           <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
             {{$offer->duree_stage}}
           </dd>
         </div>
         <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-          <dt class="text-sm font-medium text-gray-500">
+
             Rénumeration
-          </dt>
+
           <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
             {{$offer->renumeration}}
           </dd>
         </div>
         <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-          <dt class="text-sm font-medium text-gray-500">
+
             Lettre de motivation
-          </dt>
+
           <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
             {{$offer->lm}}
           </dd>
         </div>
         <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-          <dt class="text-sm font-medium text-gray-500">
+
             Fiche de validation
-          </dt>
+
           <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
             {{$offer->fiche_valid}}
           </dd>
         </div>
         <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-          <dt class="text-sm font-medium text-gray-500">
+
             Nombre de place disponible
-          </dt>
+
           <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
             {{$offer->nb_place}}
           </dd>
         </div>
         <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-            <dt class="text-sm font-medium text-gray-500">
+
               Compétence
-            </dt>
+
             <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
               {{$offer->competence}}
             </dd>
           </div>
           <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-            <dt class="text-sm font-medium text-gray-500">
+
               ID ENT
             </dt>
             <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">

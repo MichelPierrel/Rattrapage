@@ -13,8 +13,7 @@
 
     <div class="sidenav">
         <a href="users" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Editer un profil</a>
-        <a href="companies" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Editer une
-            entreprise</a>
+        <a href="companies" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Editer une entreprise</a>
         <a href="offers" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Editer une offre</a>
 
     </div>
