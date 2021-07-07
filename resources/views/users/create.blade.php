@@ -25,57 +25,33 @@
 
      <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
-            <div class="form-group">
+
                 <strong>Nom :</strong>
-                <input id="name"  type="text" name="name" class="form-control" placeholder="Nom">
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <div class="form-group">
+                <input id="name"  type="text" name="name" class="form-control" placeholder="Nom"><br>
+
                 <strong>Prénom :</strong>
-                <input id="prenom" type="text" name="prenom" class="form-control" placeholder="Prénom">
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <div class="form-group">
+                <input id="prenom" type="text" name="prenom" class="form-control" placeholder="Prénom"><br>
+
                 <strong>Email:</strong>
-                <input id="email" type="email" name="email" class="form-control" placeholder="Email">
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <div class="form-group">
+                <input id="email" type="email" name="email" class="form-control" placeholder="Email"><br>
+
                 <strong>Mot de passe :</strong>
-                <input id="password" class="form-control" type="password" name="password" placeholder="Mot de passe " />
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <div class="form-group">
+                <input id="password" class="form-control" type="password" name="password" placeholder="Mot de passe " /><br>
+
                 <strong>Délégué:</strong>
-                <input id="delegue" type="number" name="delegue" class="form-control" placeholder="Délégué">
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <div class="form-group">
+                <input id="delegue" type="number" name="delegue" class="form-control" placeholder="Délégué"><br>
+
                 <strong>Pilote:</strong>
-                <input id="pilote" type="number" name="pilote" class="form-control" placeholder="Pilote">
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <div class="form-group">
+                <input id="pilote" type="number" name="pilote" class="form-control" placeholder="Pilote"><br>
+
                 <strong>Admin:</strong>
-                <input id="admin" type="number" name="admin" class="form-control" placeholder="Admin">
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <div class="form-group">
+                <input id="admin" type="number" name="admin" class="form-control" placeholder="Admin"><br>
+
                 <strong>Promotion:</strong>
-                <input id="id_promotion" type="number" name="id_promotion" class="form-control" placeholder="Promotion">
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <div class="form-group">
+                <input id="id_promotion" type="number" name="id_promotion" class="form-control" placeholder="Promotion"><br>
+
                 <strong>Centre:</strong>
-                <input id="id_centre" type="number" name="id_centre" class="form-control" placeholder="Centre">
+                <input id="id_centre" type="number" name="id_centre" class="form-control" placeholder="Centre"><br>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">

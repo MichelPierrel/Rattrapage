@@ -10,11 +10,9 @@ Document
 /**
 Use a better box model (opinionated).
 */
+div.header{
+    margin : 0;
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
 }
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -39,6 +37,32 @@ Use a better box model (opinionated).
   .sidenav a:hover {
     color: #f1f1f1;
   }
+
+  .footer
+{
+    background:#ccc;
+    position:absolute;
+    width:100%;
+   top : 1000px;
+    height:50px;
+
+}
+.header
+ {
+    padding: 7000px;
+    text-align: center;
+    color: white;
+    background: cornflowerblue;
+    font-size: 30px;
+    margin-top: 10px;
+ }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 /**
 Use a more readable tab size (opinionated).
 */
@@ -54,7 +78,10 @@ Use a more readable tab size (opinionated).
 2. Prevent adjustments of font size after orientation changes in iOS.
 */
 
-
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
 
 /*
 Sections
@@ -146,24 +173,7 @@ pre {
 /**
 Add the correct font size in all browsers.
 */
-.footer
-{
-    background:#ccc;
-    position:fixed;
-    bottom:0;
-    width:100%;
-    padding-top:50px;
-    height:50px;
-}
-.header
- {
-    padding: 70px;
-    text-align: center;
-    color: white;
-    background: red;
-    font-size: 30px;
-    margin-top: 10px;
- }
+
 
 small {
   font-size: 80%;
@@ -12328,6 +12338,8 @@ select {
 
 .flex {
   display: flex;
+  margin-bottom : 20px;
+  margin-top : 10px;
 }
 
 .inline-flex {
